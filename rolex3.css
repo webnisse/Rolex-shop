@@ -1,0 +1,59 @@
+header{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    font-family: monospace;
+}
+
+.bildrad{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 50%, 50%;
+
+}
+
+.bild{
+    grid-column: 1;
+}
+
+.beskrivning{
+    grid-column: 2;
+}
+
+.nere{
+    display: grid;
+    grid-template-columns: 50%, 50%;
+}
+.långtext{
+    grid-column: 2;
+}
+.avlångbild{
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  body {
+    font-family: monospace;
+  }

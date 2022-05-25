@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+button {
+  margin: 10px;
+  background-color: white;
+  scale: 1, 04;
+}
+
+.rolex:hover {
+  transform: scale(1.05);
+}
+
+.rolex {
+  transition: 300ms;
+}
+
+.wrapper {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.rolex {
+  width: min(100% - 40px, 400px);
+}
+
+.rolex img {
+  width: 100%;
+}
+
+span {
+    font-family: monospace;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  width: 90%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
